@@ -87,14 +87,6 @@ class SearchBook extends Component {
                       <td>{book.note}</td>
                       <td>
                         <Link
-                          to={"editbook/" + book._id}
-                          className="btn btn-primary"
-                        >
-                          Edit
-                        </Link>
-                      </td>
-                      <td>
-                        <Link
                           to={"borrowbook/" + book._id}
                           className="btn btn-primary"
                         >
